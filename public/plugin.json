@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "pluginName": "会计准则速查",
+  "description": "会计准则速查",
+  "author": "Andrew Lau",
+  "homepage": "https://github.com/AndrewLauu/uTools-CAS-doc",
+  "preload": "preload.js",
+  "logo": "./logo.png",
+  "features": [
+    {
+      "code": "CAS",
+      "explain": "会计准则速查",
+      "cmds": ["会计准则速查"]
+    }
+  ]
+}

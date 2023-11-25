@@ -1,0 +1,20 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "publish": "node --no-deprecation uTools-CAS-doc-generate.js",
+    "lint": "eslint *.js --fix"
+  },
+  "devDependencies": {
+    "cheerio": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-n": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-promise": "latest",
+    "pdf2json": "latest",
+    "mammoth": "latest",
+    "word": "latest"
+  }
+}
