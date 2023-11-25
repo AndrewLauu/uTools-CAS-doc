@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    "standard",
+    "plugin:import/recommended",
+    "plugin:promise/recommended",
+    "plugin:n/recommended",
+    "prettier"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "plugins": ["import", "n", "promise", "prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}

@@ -128,3 +128,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+cache/
+test/
+public/static/**
+public/index.json
+!CasDoc.css
+
